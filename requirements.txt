@@ -1,0 +1,11 @@
+torch
+numpy
+pandas
+scikit-learn
+tqdm
+py-rouge
+wmd
+spacy
+transformers
+simpletransformers
+regex
