@@ -8,15 +8,15 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 
 - Our proposed RoBERTa-based variants
 
-1. [<em>FPDM<sub>RoBERTa</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_epochs_1_shard_1)
-2. [<em>FPDM<sub>RoBERTa</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1)
-3. [<em>FPDM<sub>RoBERTa</sub></em>](https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1)
+1. [<em>FastDoc<sub>RoBERTa</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_epochs_1_shard_1)
+2. [<em>FastDoc<sub>RoBERTa</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1)
+3. [<em>FastDoc<sub>RoBERTa</sub></em>](https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1)
 
 - Our proposed BERT-based variants
 
-1. [<em>FPDM<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_only_classfn_epochs_1_shard_1)
-2. [<em>FPDM<sub>BERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1)
-3. [<em>FPDM<sub>BERT</sub></em>](https://huggingface.co/AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1)
+1. [<em>FastDoc<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_only_classfn_epochs_1_shard_1)
+2. [<em>FastDoc<sub>BERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1)
+3. [<em>FastDoc<sub>BERT</sub></em>](https://huggingface.co/AnonymousSub/rule_based_hier_triplet_epochs_1_shard_1)
 
 - Baselines
 
@@ -32,20 +32,19 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 ## Links to the models pre-trained in the Scientific Domain
 
 - Our Proposed Variants
-1. [<em>FPDM(Sci.)<sub>BERT</sub></em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_BERT_HYBRID_epochs_1)
-2. [<em>FPDM(Sci.)<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_HIER_BERT_HYBRID_epochs_1)
-3. [<em>FPDM(Sci.)<sub>BERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_TRIPLET_BERT_HYBRID_epochs_1)
+1. [<em>FastDoc(Sci.)<sub>BERT</sub></em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_BERT_HYBRID_epochs_1)
+2. [<em>FastDoc(Sci.)<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_HIER_BERT_HYBRID_epochs_1)
+3. [<em>FastDoc(Sci.)<sub>BERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_TRIPLET_BERT_HYBRID_epochs_1)
 
 - Baseline
 
-1. SciBERT - Refer to https://github.com/allenai/scibert
-<!---
+1. [SciBERT](https://github.com/allenai/scibert)
 2. [SPECTER](https://huggingface.co/allenai/specter)
 3. [SciNCL](https://huggingface.co/malteos/scincl)
 4. [BioMedRoBERTa](https://huggingface.co/allenai/biomed_roberta_base)
 5. [RoBERTa<sub>BASE</sub>](https://huggingface.co/roberta-base)
 6. [RoBERTa<sub>LARGE</sub>](https://huggingface.co/roberta-large)
--->
+
 ## Fine-tuning on SQuAD 2.0
 
 - To download the training set, run `wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json`.
@@ -54,7 +53,7 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 	- `<MODEL_TYPE>` can be `bert` or `roberta`
 	- `<MODEL_PATH>` is the model path/HuggingFace model name.
 
-> To get the models fine-tuned on SQuAD 2.0, follow the following format to get the link - `https://huggingface.co/AnonymousSub/<SUBSTRING AFTER THE LAST '/' IN PRE-TRAINED MODEL LINK>_squad2.0` (For example, the link to the model obtained after fine-tuning <em>FPDM<sub>RoBERTa</sub></em> - https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1 on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
+> To get the models fine-tuned on SQuAD 2.0, follow the following format to get the link - `https://huggingface.co/AnonymousSub/<SUBSTRING AFTER THE LAST '/' IN PRE-TRAINED MODEL LINK>_squad2.0` (For example, the link to the model obtained after fine-tuning <em>FastDoc<sub>RoBERTa</sub></em> - https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1 on SQuAD 2.0 is https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1_squad2.0)
 
 ## Fine-tuning on TechQA Dataset
 
