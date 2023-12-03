@@ -1,4 +1,4 @@
-# Code for the Arxiv submission - 'FastDoc: Domain-Specific Fast Pre-training Technique using Document-Level Metadata'
+# Code for the Arxiv submission - 'FastDoc: Domain-Specific Fast Pre-training Technique using Document-Level Taxonomy'
 
 ## Required dependencies
 
