@@ -1,4 +1,4 @@
-# Code for the Arxiv submission - 'FastDoc: Domain-Specific Fast Pre-training Technique using Document-Level Taxonomy'
+# Code for - 'FastDoc: Domain-Specific Fast Pre-training Technique using Document-Level Metadata and Taxonomy'
 
 ## Required dependencies
 
@@ -6,13 +6,13 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 
 ## Links to models pre-trained on the EManuals Corpus
 
-- Our proposed RoBERTa-based variants
+- Proposed RoBERTa-based variants
 
 1. [<em>FastDoc<sub>RoBERTa</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_epochs_1_shard_1)
 2. [<em>FastDoc<sub>RoBERTa</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1)
 3. [<em>FastDoc<sub>RoBERTa</sub></em>](https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1)
 
-- Our proposed BERT-based variants
+- Proposed BERT-based variants
 
 1. [<em>FastDoc<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_only_classfn_epochs_1_shard_1)
 2. [<em>FastDoc<sub>BERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_bert_triplet_epochs_1_shard_1)
@@ -31,7 +31,7 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 
 ## Links to the models pre-trained in the Scientific Domain
 
-- Our Proposed Variants
+- Proposed Variants
 1. [<em>FastDoc(Sci.)<sub>BERT</sub></em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_BERT_HYBRID_epochs_1)
 2. [<em>FastDoc(Sci.)<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_HIER_BERT_HYBRID_epochs_1)
 3. [<em>FastDoc(Sci.)<sub>BERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/Scientific_FPDM_PRIM_CAT_TRIPLET_BERT_HYBRID_epochs_1)
