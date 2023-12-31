@@ -57,11 +57,3 @@ python run_techqa.py \
     --output_dir <PATH TO OUTPUT FOLDER> \ 
     --add_doc_title_to_passage 
 ```
-
-
-## Contact
-
-For help or issues, please submit a GitHub issue.
-
-For direct communication, please contact Vittorio Castelli (vittorio at us dot ibm dot com).
-
