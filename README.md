@@ -39,11 +39,6 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 - Baseline
 
 1. [SciBERT](https://github.com/allenai/scibert)
-2. [SPECTER](https://huggingface.co/allenai/specter)
-3. [SciNCL](https://huggingface.co/malteos/scincl)
-4. [BioMedRoBERTa](https://huggingface.co/allenai/biomed_roberta_base)
-5. [RoBERTa<sub>BASE</sub>](https://huggingface.co/roberta-base)
-6. [RoBERTa<sub>LARGE</sub>](https://huggingface.co/roberta-large)
 
 ## Fine-tuning on SQuAD 2.0
 
