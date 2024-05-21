@@ -1,4 +1,4 @@
-# Code for - 'FastDoc: Domain-Specific Fast Pre-training Technique using Document-Level Metadata and Taxonomy'
+# Code for - 'FastDoc: Domain-Specific Fast Continual Pre-training Technique using Document-Level Metadata and Taxonomy'
 
 ## Required dependencies
 
